@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro</title>
+        <link rel="stylesheet" type="text/css" href="../estilos/estilo.css">
+        <script src="/js/jquery.js"></script>
+        <script type="text/javascript" src="../js/script.js"></script>
+    </head>
+
+    <body>
+        <!-- Div Formulário -->
+        <div class="form" id="form">
+            <div>
+                <div class="banner">
+                
+                </div>
+                <h1>Cadastre-se</h1> 
+
+                <!-- Div para mostrar os erros -->
+                <div class="teste">
+                     <p id="errorMessage"></p>
+                </div>
+                <div class="teste2">
+                    <p id="errorMessage2"></p>
+               </div>
+                <!-- Div para 1° linha (Nome e Sobrenome) -->
+                <div class="row">
+                    <div class="field column">
+                        <label id="firstnameLabel">Nome:</label>
+                        <input type="text" id="firstname" name="firstname">
+                    </div>
+
+                    <div class="field column">
+                        <label id="lastnameLabel">Sobrenome:</label>
+                        <input type="text" id="lastname" name="lastname">
+                    </div>
+                </div>
+
+                 <!-- Div para 2° linha (Email) -->
+                 <div class="row">
+                    <div class="field column">
+                        <label id="emailLabel">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </div>
+
+                <!-- Div para 3° linha (Senha e Foto ID) -->
+                <div class="row">
+                    <div class="field column">
+                        <label id="passwordLabel">Senha:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+
+                </div>
+
+                <!-- Div para 2° linha (Email) -->
+                <div class="row">
+                    <div class="field column">
+                        <label id="phoneLabel">Telefone(com DDD)</label>
+                        <input type="number" id="phone" name="phone">
+                    </div>
+                </div>
+
+                <!-- Div para 5° linha (Botão enviar) -->
+                <div class="row">
+                    <div class="field column">
+                       <button id="register-btn">Realizar Cadastro</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        
+    </body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background {
+    display: flex;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 0 1 800px;
+    margin: auto;
+    padding: 10px;
+  }
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #80461B;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+
+  .card-livro {
+    margin: 1% 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 12px 60px;
+    background-color: #f5f5f5;
+  }
+
+  .card-vaga:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .grid-imagem {
+
+    display: flex;
+    grid-column: 1/3;
+}
+
+.grid-botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    height: 50px;
+    width: 150px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    background-color: #80461B;
+    color: #ffff;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.botao:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-texto {
+    display: block;
+    margin-left: 5%;
+}
+
+.container-titulo {
+    font-size: 15px;
+    color: #80461B;
+}
+
+.container-paragrafo {
+    font-size: 15px;
+    color: #3f3f3f;
+}
+
+.container-paragrafo p {
+    margin: 2%;
+}
+
+  img {
+      width: 150px;
+      padding: 3%;
+  }
+
+
+
+ 
+
+
+
+
+
+ 
+     

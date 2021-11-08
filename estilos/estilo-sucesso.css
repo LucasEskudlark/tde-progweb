@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: url(../imagens/bibliotecas.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.row {
+    width: 95%;
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+
+.form {
+    width: 600px;
+    height: auto;
+    margin: 15% auto;
+    background-color: #e4e4e4;
+    padding: 20px 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 2px;
+} 
+
+.form h1 {
+    color: #80461B;
+    font-size: 35px;
+    text-align: center;
+    padding: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+
+.form p {
+    color: #353535;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+.row:nth-child(even) .column {
+    width: 100% !important;
+}
+
+.form .row .field {
+    margin: 8px 0;
+}
+
+.row .column {
+    width: 100%;
+}
+
+
